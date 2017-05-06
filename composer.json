@@ -4,7 +4,10 @@
     "description": "Email campaign manager for scheduling drip emails",
     "keywords": [
         "Fuzzybaird",
-        "Campaign"
+        "Campaign",
+        "Email",
+        "Drip Emails",
+        "Scheduling"
     ],
     "homepage": "https://github.com/Fuzzybaird/Campaign",
     "license": "MIT",

@@ -7,10 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Eli Baird``` ```fuzzybaird``` ```elibaird.com``` ```elibaird1@gmail.com``` ```fuzzybaird``` ```campaign``` ```Email campaign manager for scheduling drip emails``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+This package is built to help create more advanced scheduled email campaigns. I want to make my first pass be purely code based, but then I would like to explore a more GUI based extension.
 
 ## Structure
 
