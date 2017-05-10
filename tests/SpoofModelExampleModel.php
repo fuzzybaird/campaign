@@ -1,5 +1,6 @@
 <?php
 use Carbon\Carbon;
+use Fuzzybaird\Campaign\SkeletonClass;
 use Illuminate\Contracts\View\Factory;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Database\Eloquent\Model;
@@ -33,7 +34,8 @@ class SpoofModelTest extends \PHPUnit\Framework\TestCase
     public function testItCanMutateValuesForForms()
     {
         $model = new ModelThatUsesForms($this->modelData);
-        // dd($model->string);
+        $class = new SkeletonClass;
+        dd($class->echoPhrase('test phrase'));
         $this->assertEquals($model->string, 'ABCDEFGHIJKLMNOP');
     }
 }
