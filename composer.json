@@ -30,6 +30,7 @@
     "require-dev": {
         "illuminate/database": "5.4.*",
         "mockery/mockery": "~0.9.4",
+        "orchestra/testbench": "^3.4",
         "phpunit/phpunit": "~5.7",
         "squizlabs/php_codesniffer": "^2.3"
     },
