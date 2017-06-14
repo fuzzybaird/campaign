@@ -1,0 +1,2 @@
+# this script is to run you php tests and save some typing
+vendor/bin/phpunit
